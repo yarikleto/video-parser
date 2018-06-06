@@ -72,7 +72,7 @@ var helpers = (function() {
     if (isValidVideoID(videoId) === false) {
       return '';
     }
-    return 'http://www.youtube.com/watch?v=' + videoId;
+    return 'https://www.youtube.com/watch?v=' + videoId;
   }
 
   /**
@@ -90,7 +90,7 @@ var helpers = (function() {
         autoplay: 1,
       }
     }
-    return 'http://www.youtube.com/embed/' + videoId + '?autoplay=' + config.autoplay;
+    return 'https://www.youtube.com/embed/' + videoId + '?autoplay=' + config.autoplay;
   }
 
   /**
