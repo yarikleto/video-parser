@@ -145,7 +145,7 @@ var classes = (function() {
     galleryItem.appendChild(galleryItemImage);
 
     // Title
-    var galleryItemTitle = document.createElement('img');
+    var galleryItemTitle = document.createElement('div');
     galleryItemTitle.classList.add(VIDEO_GALLERY_ITEM_TITLE);
     galleryItemTitle.innerText = this.state.videoMap[videoId].title;
     galleryItem.appendChild(galleryItemTitle);
