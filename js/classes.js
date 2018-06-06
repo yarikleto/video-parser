@@ -73,13 +73,11 @@ var classes = (function() {
       var videoUrl = helpers.createVideoUrl(videoIDs[i]);
 
       helpers.getVideoInfo(videoUrl, (function(isSuccess, res) {
-        var i = Number(this);
+        var i = this;
         if (isSuccess) {
           videoMap[videoIDs[i]] = res;
         }
-        if (i === videoIDs.length - 1) {
-          SELF.setState('videoMap', videoMap);
-        }
+        SELF.setState('videoMap', videoMap);
       }).bind(i))
     }
   }
