@@ -1,4 +1,4 @@
-# savefrom-video-parser
+# video-parser
 
 Смотреть тут: https://alfimois.github.io/savefrom-video-parser/
 
