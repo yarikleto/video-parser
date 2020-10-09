@@ -1,6 +1,6 @@
 # video-parser
 
-Смотреть тут: https://alfimois.github.io/video-parser/
+Смотреть тут: https://yarikleto.github.io/video-parser/
 
 ### Одностраничное приложение (HTML + JavaScript(ES5) + CSS) для отображения и просмотра списка видео с youtube.com.
 
